@@ -1,0 +1,67 @@
+body {
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   height: 100%;
+}
+
+.header {
+   height: 70px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: darkcyan;
+}
+
+.header__list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+}
+
+.header__list-item {
+   margin: 0 20px;
+}
+
+.header__list-item a {
+   text-decoration: none;
+   color: #fff;
+}
+
+.register__title,
+.register__text,
+.login__title,
+.login__text {
+   text-align: center;
+}
+
+.register__input,
+.login__input {
+   display: block;
+   height: 40px;
+   width: 270px;
+   margin: 10px 0;
+}
+
+.register__button,
+.login__button {
+   height: 40px;
+   width: 270px;
+   background-color: darkcyan;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+.footer {
+   height: 70px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: lightgrey;
+}

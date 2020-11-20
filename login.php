@@ -3,10 +3,12 @@ require_once './includes/header.php'
 ?>
 
 <div>
-   <form action="" method="post">
-      <input type="text" name="username" placeholder="Username">
-      <input type="text" name="password" placeholder="Password">
-      <button type="submit" name="submit">LOGIN</button>
+   <h1 class="login__title">Login</h1>
+   <p class="login__text">Do not have an account? <a href="register.php">Register!</a></p>
+   <form class="login__form" action="" method="post">
+      <input class="login__input" type="text" name="username" placeholder="Username">
+      <input class="login__input" type="text" name="password" placeholder="Password">
+      <button class="login__button" type="submit" name="submit">LOGIN</button>
    </form>
 </div>
 

@@ -1,6 +1,6 @@
-<footer>
-<p>This is page footer.</p>
-</footer>
+   <footer class="footer">
+      <p class="footer__text">This is page footer.</p>
+   </footer>
 
 </body>
 </html>
