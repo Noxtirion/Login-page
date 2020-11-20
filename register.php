@@ -8,8 +8,8 @@ require_once './includes/register-inc.php';
    <p class="register__text">Already have an account? <a href="login.php">Login!</a></p>
    <form class="register__form" action="./includes/register-inc.php" method="post">
       <input class="register__input" type="text" name="username" placeholder="Username">
-      <input class="register__input" type="text" name="password" placeholder="Password">
-      <input class="register__input" type="text" name="confirmPassword" placeholder="Confirm password">
+      <input class="register__input" type="password" name="password" placeholder="Password">
+      <input class="register__input" type="password" name="confirmPassword" placeholder="Confirm password">
       <button class="register__button" type="submit" name="submit">REGISTER</button>
    </form>
 </div>
