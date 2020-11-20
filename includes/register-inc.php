@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
 
                mysqli_stmt_bind_param($stmt, "ss", $username, $hashedPass);
                mysqli_stmt_execute($stmt); 
-               header("Location: ../register.php?success=registered");
+               header("Location: ../login.php?success=registered");
                exit();
             }
          }
